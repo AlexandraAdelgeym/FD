@@ -1,0 +1,138 @@
+body{
+    padding: 3em 6em;
+    font-family: Rubik;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1.5em;
+}
+
+.first-container{
+    display: flex;
+}
+
+.first-left-container{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.logo{
+    font-size: 1.8rem;
+    font-weight: 400;
+}
+
+.first-container img{
+    height: 32rem;
+}
+
+.second-container img{
+    height: 32rem;
+}
+
+.main-title{
+    font-size: 4rem;
+    font-weight: 400;
+    margin-top: 1.5em;
+    margin-bottom: 0.5em;
+}
+
+.main-subtitle{
+    font-size: 1.7rem;
+}
+
+.get-started-btn{
+    border: none;
+    background-color: #FC8F3F;
+    color: black;
+    height: 4rem;
+    width: 15rem;
+    border-radius: 3rem;
+    font-size: 2rem;
+    margin-top: 2em;
+    cursor: pointer;
+    text-decoration: none; 
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+
+.login-btn{
+    color: #447184;
+    border: 0.1rem solid #447184;
+    border-radius: 1.5rem;
+    height: 2.5rem;
+    width: 7rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+    text-decoration: none; 
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+
+}
+.hr{
+    border-top: 1px solid #447184; 
+}
+
+.second-container{
+    display: flex;
+    margin-top: 15em;
+}
+
+.second-title{
+    font-size: 2.5rem;
+    font-weight: 400;
+    margin-top: 1.5em;
+    margin-bottom: 0.7em;
+}
+
+.second-subtitle{
+    font-size: 1.4rem;
+}
+
+.second-right-container{
+    padding-left:7em;
+    padding-top:3em;
+}
+
+.third-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 4rem;
+    padding-top: 9em;
+}
+
+.step-title{
+    font-size: 1.7rem;
+    font-weight: 400;
+    margin-top: 1.5em;
+    margin-bottom: 0.5em;
+}
+
+.step-body{
+    font-size: 1.2rem;
+}
+
+.forth-container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10em;
+}
+
+.forth-title{
+    font-size: 1.9rem;
+    font-weight: 500;
+    margin-top: 1.5em;
+    margin-bottom: 0.5em;
+}
+
+.forth-subtitle{
+    font-size: 1.3rem;
+}
+
+
+footer{
+    margin-top: 15em;
+}

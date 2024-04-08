@@ -1,0 +1,72 @@
+{% extends 'main.html' %}
+{% load static %}
+{% block content %}
+<header>
+    <div class="logo">
+        FrienDog
+    </div>
+    <a class='login-btn' href="{% url 'login' %}">Login</a>
+</header>
+<hr class="hr">
+<main>
+    <div class="first-container">
+        <div class="first-left-container">
+            <div class="main-title">
+                Найди новых друзей для себя и своей собаки
+            </div>
+            <div class="main-subtitle">
+                Познакомься с классными людьми и их собаками поблизости
+            </div>
+            <a class='get-started-btn' href="{% url 'login' %}">Начать</a>
+
+        </div>
+        <div class="first-right-container">
+            <img src="{% static 'images/image6.jpg' %}" alt="Image 6"/>          
+        </div>
+    </div>
+    <div class="second-container">      
+        <div class="second-left-container">
+            <img src="{% static 'images/people_dogs.jpg' %}" alt="Image 6"/>          
+        </div>
+        <div class="second-right-container">
+            <div class="second-title">
+                Выгуливай собаку с удовольствием - в хорошей компании
+            </div>
+            <div class="second-subtitle">
+                Мы поможем найти людей, с которыми ежедневные прогулки с собакой станут еще приятнее.
+            </div>
+        </div>
+    </div>
+    <div class="third-container">
+        <div class="step">
+            <div class="step-title">Расскажи о себе</div>
+            <div class="step-body">Заполни анкету про себя и своего питомца.</div>
+        </div>
+        <div class="step">
+            <div class="step-title">Узнай о других</div>
+            <div class="step-body">Посмотри анкеты других пользователей в твоем районе.</div>   
+        </div>
+        <div class="step">
+            <div class="step-title">Договорись о совместной прогулке</div>
+            <div class="step-body">Напиши тем кто понравился и познакомься в оффлайне.</div>
+        </div>
+    </div>
+    <div class="forth-container">
+            <div class="forth-title">
+                Познакомься с интересными людьми рядом с тобой уже сегодня!
+            </div>
+            <div class="forth-subtitle">
+                Регестрируйся  и общайся с теми, кто выгуливает собаку  в твоем районе.
+            </div>
+            <a class='get-started-btn' href="{% url 'login' %}">Начать</a>
+    </div>
+    <footer>
+        <div class="logo">
+            FrienDog
+        </div>
+        <hr class="hr">
+
+    </footer>
+</main>
+
+{% endblock %}
